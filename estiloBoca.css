@@ -1,7 +1,32 @@
 .fondo {
-    background-color: midnightblue;
+    background-image: url(bombonera.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
 }
 .miTexto {
-    font-size: 80px;
+    font-size: 4em;
     color: darkgoldenrod;
+    display: flex;
+    background-color: rgb(2, 2, 154);
+    padding-left: 2em;
+
+}
+#opciones {
+    background-color: goldenrod;
+
+}
+.noticias {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    
+    
+}
+#tituloN {
+    font-size: 2em;
+}
+#titulo {
+    font-size: 3em;
 }
