@@ -1,7 +1,7 @@
 .fondo {
     background-image: url(bombonera.jpg);
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
 }
@@ -10,23 +10,53 @@
     color: darkgoldenrod;
     display: flex;
     background-color: rgb(2, 2, 154);
-    padding-left: 2em;
+    justify-content: center;
 
 }
-#opciones {
+.opciones {
     background-color: goldenrod;
-
+    display: flex;
+    justify-content: space-around;
+}
+#opcionesN:hover {
+    background: yellow;
+}
+#opcionesCT:hover {
+    background: yellow;
+}
+#opcionesT:hover {
+    background: yellow;
+}
+#opcionesTr:hover {
+    background: yellow;
 }
 .noticias {
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
-    
-    
+    margin: 2%;
+    padding: 1%;
+    border: 3px solid rgb(2, 2, 154);
+    border-radius: 15%;  
+    background-color: darkgoldenrod;opacity: 85%;
 }
 #tituloN {
     font-size: 2em;
 }
 #titulo {
     font-size: 3em;
+}
+#pie {
+    font-size: 1.5em;
+    border: 3px solid rgb(2, 2, 154);
+    border-radius: 15%; 
+    margin: 2%;
+    padding: 1%;
+    background-color: darkgoldenrod;opacity: 85%;
+    display: flex;
+    width: 20%;
+    
+}
+#pie:hover {
+    background: yellow;
+
 }
